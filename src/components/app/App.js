@@ -7,9 +7,9 @@ import MoviesAddForm from "../movies-add-form/movies-add-form";
 
 const App = () => {
   const data = [
-    { h1: "Empire of Titanic", h2: 233 },
-    { h1: "Empire of Titanic", h2: 233 },
-    { h1: "Empire of Titanic", h2: 233 },
+    { h1: "Empire of Titanic", h2: 233, favourite: false, id: 1 },
+    { h1: "Empire of Titanic", h2: 233, favourite: false, id: 2 },
+    { h1: "Titanic", h2: 233, favourite: true, id: 3 },
   ];
 
   return (
